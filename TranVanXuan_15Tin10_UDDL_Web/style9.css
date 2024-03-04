@@ -1,0 +1,195 @@
+.hinh9{
+    width           : 100%;
+    margin: 100px 0;
+    .main{
+        width: 70%;
+        /* height: 600px; */
+        margin-left: 50%;
+        transform: translateX(-50%);
+        border: none;
+        /* border-radius: 10px; */
+        box-shadow   : rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+        .header{
+            padding : 0 !important;
+            width: 100%;
+            height: 150px;
+            display: flex;
+            .thumbanil{
+                width: 30%;
+                height: 100%;
+
+                img{
+                    width: 100% ;
+                    height: 100%;
+                    object-fit: cover;
+                    border-top-left-radius: 10px !important;
+
+                }
+            }
+
+            .content-header{
+                width: 70%;
+                height: 150px !important;
+                background: linear-gradient(to right, white, rgb(56, 56, 155));
+                border-top-right-radius: 10px !important;
+
+                
+                p:first-child{
+                    font-size: 20px;
+                    text-align: center;
+                    color: #fff;
+                    text-shadow   : rgba(0, 0, 0, 0.9) 5px 5px 5px;
+                    text-transform: uppercase;
+                }
+
+                p:last-child{
+                    font-size: 30px;
+                    color: blue;
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    text-shadow   : rgba(0, 0, 0, 0.9) 3px 3px 3px;
+
+                }
+            }
+        }
+
+        .row-content{
+            display: flex;
+
+            .sibar{
+                width: 25%;
+
+                ul{
+                    background-color: rgba(26, 79, 185, 0.5);
+                    list-style-type: none;
+                    padding-left: 0 !important;
+                    margin-top: 0 !important;
+                    li{
+                        padding-left: 20px !important;
+                        color: #fff;
+                        padding: 5px;
+                        border: 1px solid #ccc;
+                    }
+                }
+            }
+
+            .content{
+                width: 45%;
+                box-shadow   : rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                padding: 0 10px;
+                .form-control{
+                    
+                    .header-table{
+                        height: 20px;
+                        width: 100%;
+                        background: linear-gradient(to top , white , green);
+
+                        p{
+                            line-height: 20px;
+                            text-align: center;
+                            color: #fff;
+                            border: 1px solid green;
+                            
+                        }
+
+                    }
+                    table{
+                        width: 100%;
+                        border-right:1px solid green;
+                        border-left:1px solid green;
+
+                        td,th{
+                            border-bottom:1px solid green;
+                            border-right:1px solid green;
+                            padding: 5px;
+
+                        }
+
+                        .row-main{
+                            .label-row-main{
+                                width: 30%;
+                                color: blue;
+                            }
+
+                            .content-row-main{
+                                width: 70%;
+
+                                input{
+                                    padding: 5px;
+                                    border: 1px solid #ccc;
+                                    /* border-radius: 5px; */
+                                    box-shadow   : rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+                                }
+                            }
+
+                            .form-btn-control{
+                                display: flex;
+
+                                button{
+                                    margin-right: 20px;
+                                    padding: 3px 5px;
+                                    border:1px solid #ccc;
+                                    /* border-radius: 5px; */
+                                    box-shadow   : rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                                    /* color:#fff; */
+                                    &:hover{
+                                        cursor: pointer;
+                                        opacity: 0.6;
+                                    }
+                                }
+
+                                .btn-add{
+                                    /* background-color: rgba(41, 35, 230, 0.919); */
+                                }
+                                .btn-update{
+                                    /* background-color: orange; */
+                                }
+                                .btn-save{
+                                    /* background-color: green; */
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .banner{
+                width: 30%;
+
+                img:first-child{
+                    height: 150px !important;
+                    width: 100% !important;
+                    object-fit: cover ;
+                }
+
+                label{
+                    margin-bottom: 20px;
+                    p{
+                        font-size: 20px;
+                        margin: 1px !important;
+                        text-align: center;
+                        color: rgb(19, 19, 160);
+                    }
+                }
+
+                img{
+                    height: 110px;
+                    width: 60% ;
+                    object-fit: cover;
+                    margin-left: 50%;
+                    transform: translateX(-50%);
+                    
+                }
+
+                a{
+                    margin-left: 20px;
+                }
+
+            }
+        }
+    }
+}

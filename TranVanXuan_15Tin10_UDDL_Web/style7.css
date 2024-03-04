@@ -1,0 +1,181 @@
+.hinh7{
+    width           : 100%;
+    margin-bottom: 100px;
+
+    .form-content{
+        width: 70%;
+        margin-left: 50%;
+        padding: 10px 15px;
+        transform: translateX(-50%);
+        border: none;
+        /* border-radius: 10px; */
+        background-color: violet;
+        box-shadow   : rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+        .header{
+            margin: 10px 0 !important;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: 700;
+            color: #fff;
+            text-align: center;
+
+        }
+
+        .table-input{
+            padding: 10px 5px;
+            /* border-radius: 10px; */
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.8);
+
+            .form-input{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 10px;
+
+                .label{
+                    width: 20%;
+                    span{
+                        font-size: 20px;
+                        color: rgb(227, 42, 104);
+                        float: right;
+                        margin-right: 50px;
+                    }
+                }
+                input{
+                    width: 70%;
+                    padding: 5px;
+                    /* border-radius: 10px; */
+                    border: none;
+                    box-shadow   : rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+                }
+                
+            }
+
+            .row{
+                width: 100%;
+                display: flex;
+                margin-bottom: 10px;
+                
+                .form-input-row{
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    .label{
+                        width: 30%;
+                        span{
+                            font-size: 20px;
+                            color: rgb(227, 42, 104);
+                            float: right;
+                            margin-right: 50px;
+                        }
+                    }
+                    
+                    input{
+                        padding: 5px;
+                        /* border-radius: 10px; */
+                        border: none;
+                        box-shadow   : rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    }
+                }
+            }
+
+            hr{
+                width: 90%;
+                border: 1px solid rgb(227, 42, 104);
+                margin: 20px 0;
+                margin-left: 50%;
+                transform: translateX(-50%);
+            }
+
+            .term  {
+                color: rgb(227, 42, 104);
+                font-size: 20px;
+                margin-left: 20px;
+                margin-bottom: 0 !important;
+                }
+
+            .form-check-box{
+                margin-left: 25%;
+
+                .item-check-box {
+
+                    input{
+                        padding: 10px;
+                    }
+                    span{
+                        font-size: 20px;
+                        color: rgb(227, 42, 104);
+                    }
+                }
+            }
+
+            .content {
+                display: flex;
+                margin-top: 20px;
+
+                .label-content{
+                    width: 25%;
+                    p{
+                        color: rgb(227, 42, 104);
+                        font-size: 20px;
+                        float: right;
+                        margin-right: 50px;
+                    }
+
+                }
+
+                .input-content{
+                    width: 70%;
+
+                    textarea {
+                        height: 100px;
+                        width: 100%;
+                        border: none;
+                        /* border-radius: 10px; */
+                        overflow: auto;
+                        box-shadow   : rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+                    }
+                }
+
+            }
+
+            .required{
+                font-size: 20px;
+                color: rgb(227, 42, 104);
+                font-style: italic;
+            }
+
+            .form-submit{
+                margin-left: 10%;
+                display: flex;
+                justify-content: space-around;
+                margin-bottom: 10px;
+               
+
+                .btn-submit , .btn-reset{
+                    color: red;
+                    padding: 10px 30px;
+                    border: none;
+                    font-size: 20px;
+                    /* border-radius: 10px; */
+                    
+                    /* background-color: rgb(227, 42, 104);     */
+                    box-shadow   : rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.5;
+                    }
+                }
+            }
+            
+        }
+    }
+}
